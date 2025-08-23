@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External linking -->
+    <script src="index.js"defer> </script>
+    <!-- internal linking -->
+    <script>
+        console.log("test internal")
+    </script>
+</head>
+<body>
+    <h1>Heading!!!</h1>
+<!-- mere click pe ye chlna chahiye -->
+ <!-- inline hai ye -->
+    <button onclick="console.log('Btn clicked!!!!!')"> Click </button>
+    <!-- inline and external sath me -->
+     <!-- callfunc wala external hai and hello wala inline hai -->
+    <button onclick="callFunc();console.log('hello')"> Click </button>
+    <!-- disabled -->
+    <!-- <button onclick="callFunc();console.log('hello')"disabled> Click </button> -->
+</body>
+</html>
