@@ -49,5 +49,5 @@ console.log(arr)
 for(let i = 0;i<5;i++)
     console.log(arr[i]);
 
-//Object is a key value
+//Object is a key value pairs
 }
